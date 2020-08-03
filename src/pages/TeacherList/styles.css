@@ -1,0 +1,45 @@
+#page-teacher-list {
+  width: 100vw;
+  height: 100vh;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-primary);
+}
+
+.page-header .top-bar-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-text-in-primary);
+  padding: 1.6rem 0;
+}
+
+.page-header .top-bar-container > img,
+.small-icons {
+  height: 2.4rem;
+}
+
+.small-icons {
+  transition: opacity .2s;
+}
+
+.small-icons:hover {
+  opacity: .6;
+}
+
+.page-header .header-content {
+  width: 90%;
+  margin: 3.2rem auto;
+  position: relative;
+}
+
+.header-content strong {
+  font: 700 3.2rem Archivo;
+  line-height: 4.2rem;
+  color: var(--color-title-in-primary);
+}
