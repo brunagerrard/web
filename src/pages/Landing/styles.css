@@ -13,7 +13,7 @@
 
 .container {
     height: 100vh;
-    width: 70vw;
+    width: 80vw;
 }
 
 .logo-container img {
@@ -32,7 +32,7 @@
 
 .logo-container h2 {
     font-weight: 500;
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     line-height: 4.6rem;
 }
 
@@ -44,7 +44,7 @@
 
 .buttons-container a {
     width: 23rem;
-    height: 8rem;
+    height: 6rem;
     border-radius: 0.8rem;
     font: 700 2.0rem Archivo;
     display: flex;
@@ -60,8 +60,8 @@
 }
 
 .buttons-container a img {
-    width: 4rem;
-    margin-right: 2.4rem;
+    width: 3rem;
+    margin-right: 0.8rem;
 }
 
 .buttons-container a.study {
@@ -142,6 +142,13 @@
 
     .buttons-container a {
         font-size: 2.4rem;
+        width: 23rem;
+        height: 8rem;
+    }
+
+    .buttons-container a img {
+        width: 4rem;
+        margin-right: 2.4rem;
     }
 
     .total-connections {
