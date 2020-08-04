@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 import goBackIcon from '../../assets/images/icons/back.png';
 import logoImg from '../../assets/images/logo.png';
 
+import './styles.css'
+
 interface PageHeaderProps {
   title: string;
 }
@@ -21,6 +23,7 @@ const PageHeader: React.FunctionComponent<PageHeaderProps> = (props) => {
 
       <div className="header-content">
           <strong>{props.title}</strong>
+          {props.children}
       </div>
     </header>
   )
