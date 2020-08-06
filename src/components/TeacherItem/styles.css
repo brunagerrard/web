@@ -57,7 +57,7 @@
   display: block;
 }
 
-.teacher-item footer button {
+.teacher-item footer a {
   width: 20rem;
   height: 5.6rem;
   background: var(--color-secondary);
@@ -69,10 +69,11 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  text-decoration: none;
   transition: .2s;
 }
 
-.teacher-item footer button:hover {
+.teacher-item footer a:hover {
   background: var(--color-secondary-dark);
 }
 
