@@ -1,6 +1,3 @@
-/*
-    MOBILE-FIRST
-*/
 #page-landing {
     width: 100vw;
     height: 100vh;
@@ -9,11 +6,6 @@
     align-items: center;
     color: var(--color-text-in-primary);
     background: var(--color-primary);
-}
-
-.container {
-    height: 100vh;
-    width: 80vw;
 }
 
 .logo-container img {
@@ -92,11 +84,6 @@
     width: 1.6rem;
 }
 
-
-
-/*
-    DESKTOP
-*/
 @media (min-width: 768px) {
     #page-landing-content {
         max-width: 1100px;
