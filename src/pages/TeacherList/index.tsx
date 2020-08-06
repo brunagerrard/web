@@ -9,12 +9,7 @@ function TeacherList() {
         <div id="page-teacher-list" className="container">
             <PageHeader title="These are our availabe teachers.">
                 <form id="search-teachers">
-                    <div className="input-block">
-                        <label htmlFor="subject">
-                            Subject:
-                        </label>
-                        <input type="text" id="subject"/>
-                    </div>
+                    
 
                     <div className="input-block">
                         <label htmlFor="weekday">
