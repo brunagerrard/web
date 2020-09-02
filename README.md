@@ -1,5 +1,5 @@
 <h1 align="center">
-    👩‍💻 goLearn
+    👩‍🏫 goLearn
 </h1>
 
 ## 👩‍🚀 About Me.
